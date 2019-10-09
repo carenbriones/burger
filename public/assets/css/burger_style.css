@@ -1,9 +1,16 @@
 body {
     background-color: #f7e1b2;
+    font-family: 'Karla', sans-serif;
 }
 
 h1 {
     text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Rubik', sans-serif;
 }
 
 #not-devoured-burgers {
@@ -13,7 +20,8 @@ h1 {
     padding: 0 1%;
     margin: 0 5% 0 10%;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
 }
 
 #devoured-burgers {
@@ -23,15 +31,24 @@ h1 {
     margin: 0 10% 0 5%;
     padding: 0 1%;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
 }
 
 #add-burger {
     margin: auto;
     width: 250px;
     border: 1px solid gray;
+    border-radius: 20px;
     padding: 0px 10px 10px;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+#add-burger button {
+    margin-top: 10px;
+    background-color: linen;
+    height: 30px;
 }
 
 .burgers {
@@ -50,6 +67,13 @@ ul {
     border-top: 1px solid red;
     border-bottom: 1px solid red;
     margin-bottom: 5px;
+}
+
+.change-devour {
+    border: none;
+    background-color: lightgray;
+    height: 20px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 1002px) {
